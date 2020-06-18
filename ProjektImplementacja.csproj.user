@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddNewSeller.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddSeller.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EventStatistics.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SellerStatistics.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="YourEvents.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="YourSellers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddNewSeller.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddSeller.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EventStatistics.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SellerStatistics.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="YourEvents.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="YourSellers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

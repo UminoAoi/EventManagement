@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200610104901_AddedTables.cs" />
+    <Compile Remove="Migrations\20200610104901_AddedTables.Designer.cs" />
+    <Compile Remove="Migrations\20200610112855_AddedAtractions.cs" />
+    <Compile Remove="Migrations\20200610112855_AddedAtractions.Designer.cs" />
+    <Compile Remove="Migrations\20200610114043_AddedAtractions.cs" />
+    <Compile Remove="Migrations\20200610114043_AddedAtractions.Designer.cs" />
+    <Compile Remove="Migrations\20200610115953_AddedAtractions.cs" />
+    <Compile Remove="Migrations\20200610115953_AddedAtractions.Designer.cs" />
+    <Compile Remove="Migrations\20200610120633_AddedAtractions.cs" />
+    <Compile Remove="Migrations\20200610120633_AddedAtractions.Designer.cs" />
+    <Compile Remove="Migrations\20200610121107_AddedAtractions.cs" />
+    <Compile Remove="Migrations\20200610121107_AddedAtractions.Designer.cs" />
+    <Compile Remove="Migrations\20200610121311_AddedAtractions.cs" />
+    <Compile Remove="Migrations\20200610121311_AddedAtractions.Designer.cs" />
+    <Compile Remove="Migrations\20200610122752_InheritAtrakcja.cs" />
+    <Compile Remove="Migrations\20200610122752_InheritAtrakcja.Designer.cs" />
+    <Compile Remove="Migrations\20200611145844_UzytkownikConnections.cs" />
+    <Compile Remove="Migrations\20200611145844_UzytkownikConnections.Designer.cs" />
+    <Compile Remove="Migrations\20200611150714_First.cs" />
+    <Compile Remove="Migrations\20200611150714_First.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="images\icon.png" />
+    <None Remove="images\photo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\icon.png" />
+    <Resource Include="images\photo.jpg" />
+  </ItemGroup>
+
+</Project>
